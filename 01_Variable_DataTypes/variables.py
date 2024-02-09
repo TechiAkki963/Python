@@ -37,4 +37,8 @@ y = int(y)
 print(type(x))          #<class 'str'>
 print(type(y))          #<class 'int'>
 
+z= float(y)
+print(type(z))          #<class 'float'>
+print(z)                #2.0
+
 
