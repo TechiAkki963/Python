@@ -27,4 +27,14 @@ print(x,y,name,is_cool)
 a = x + y
 
 # Check type
-print(type(y))
+print(type(y))          #<class 'float'>
+print(type(is_cool))    #<class 'bool'>
+
+
+# Casting
+x = str(x)
+y = int(y)
+print(type(x))          #<class 'str'>
+print(type(y))          #<class 'int'>
+
+
