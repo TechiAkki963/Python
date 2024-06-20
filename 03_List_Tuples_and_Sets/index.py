@@ -135,3 +135,17 @@ for index, course in enumerate(courses, start=1):
 # 11 English
 # 12 french
 
+fruits = ["apple","mango","banana","oranges"]
+
+fruits_str=','.join(fruits)
+
+print(fruits_str)
+# apple,mango,banana,oranges
+
+fruits_str=' - '.join(fruits)
+print(fruits_str)
+# apple-mango-banana-oranges  
+
+new_list = fruits_str.split(' - ')
+print(new_list)
+# ['apple', 'mango', 'banana', 'oranges']
