@@ -18,6 +18,7 @@
 # Zero of numeric type
 # Any empty sequence : ' ' , () , []
 # Any empty mapping , { }
+
 language = 'Python'
 
 if language == 'Python':
